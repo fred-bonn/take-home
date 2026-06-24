@@ -37,7 +37,7 @@ Complete the `get_injured` function.
 It takes as input the party's health as a list of integers and a threshold.
 
 Return a list of party member indexes that are below the threshold and have not fainted.
-A party member faints if their health reaches 0.
+A party member faints if their health reaches 0 or less.
 
 Example:
 
