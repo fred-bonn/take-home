@@ -60,7 +60,3 @@ if "__RUN__" in globals():
     test_cases = run_cases
 
 main()
-
-x = [("Rag", 10), ("Vest", 20)]
-y = filter_shop_inventory(x, 15)
-print(y)
